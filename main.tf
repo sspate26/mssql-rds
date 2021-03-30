@@ -1,5 +1,5 @@
 provider "aws" {
-    region = var.aws_region
+    region = var.aws_default_region
 }
 
 resource "aws_db_instance" "msdbinstance" {
